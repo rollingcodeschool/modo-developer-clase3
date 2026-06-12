@@ -1,9 +1,15 @@
+import Contador from "./components/Contador.jsx";
+
 const App = () => {
   
   return (
-    <div className="container mt-5">
-      <h1>Mi primera aplicación React</h1>
-    </div>
+    <>
+      {/* <div>Mi primer componente</div>
+      <TarjetaProducto nombre="Coca cola 3L" precio={4500} />
+      <TarjetaProducto nombre="Pepsi 2L" precio={3500} />
+      <TarjetaProducto nombre="Alfajor tatin" precio={1500} /> */}
+      <Contador />
+    </>
   );
 };
 
