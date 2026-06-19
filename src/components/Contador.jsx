@@ -6,7 +6,7 @@ const Contador = () => {
   const [contador, setContador] = useState(0);
 
   const sumar = () => {
-    // contador = contador + 1;
+    //  contador = contador + 1;
     setContador(contador + 1);
   };
 
@@ -18,7 +18,7 @@ const Contador = () => {
   };
 
   return (
-    <>
+    <div className="container">
       <div className="fs-1">{contador} </div>
       <button className="btn btn-primary" onClick={sumar}>
         +
@@ -29,7 +29,7 @@ const Contador = () => {
       <button className="btn btn-primary ms-2" onClick={reiniciar}>
         Reiniciar
       </button>
-    </>
+    </div>
   );
 };
 
